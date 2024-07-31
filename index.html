@@ -110,7 +110,7 @@
         }
 
         function saveImageSrc() {
-            var url = 'http://127.0.0.1:5000/predict';
+            var url = 'http://backend-xi-navy.vercel.app/predict';
             var formData = new FormData();
             var fileInput = document.querySelector('input[type="file"]');
             formData.append('file', fileInput.files[0]);
